@@ -1,0 +1,27 @@
+@media screen and (max-width: 766px) {
+  #mySidenav {
+    position: absolute!important;
+    width: 35%;
+  }
+  .ad-text-center {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  #mySidenav {
+    width: 15%;
+    display: block!important;
+  }
+  #close-btn {
+    display: none!important;
+  }
+  #main-div {
+    margin-left: 15%;
+  }
+}
+.ad-btn-no {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px;
+}
